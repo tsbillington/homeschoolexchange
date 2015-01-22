@@ -32,6 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "paperclip", "~> 4.2"
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
+gem 'therubyracer', platforms: :ruby
 
 group :production do
 	gem 'pg', '~> 0.18.1'
