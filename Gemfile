@@ -33,6 +33,8 @@ gem "paperclip", "~> 4.2"
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'autoprefixer-rails'
 gem 'therubyracer', platforms: :ruby
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
 
 group :production do
 	gem 'pg', '~> 0.18.1'

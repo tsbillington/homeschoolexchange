@@ -1,0 +1,6 @@
+app_key: "opx0300szc8c7hb"
+app_secret: <%= ENV["APP_SECRET"] %>
+access_token: "iobp2bssl26fee2j"
+access_token_secret: <%= ENV["ACCESS_TOKEN_SECRET"] %>
+user_id: "365280928"
+access_type: "app_folder"
