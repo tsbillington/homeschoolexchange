@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Required for Devise (user security gem).  *****REMEMBER***** server needs to be updated to actual production server.  So if this was really Etsy, we would change it to etsy.com
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
